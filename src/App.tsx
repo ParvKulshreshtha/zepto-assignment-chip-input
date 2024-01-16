@@ -41,7 +41,6 @@ const App: React.FC<AppProps> = () => {
         });
         setHighlightedUser("");
       }
-      // Remove the last selected user
     }
   };
 
@@ -92,7 +91,7 @@ const App: React.FC<AppProps> = () => {
             onChange={(e: ChangeEvent<HTMLInputElement>) =>
               setInputValue(e.target.value)
             }
-            onKeyDown={handleBackspace} // Handle backspace key press
+            onKeyDown={handleBackspace}
           />
           {isDivClicked && (
           <div className="shadow-md w-64 p-2 bg-white absolute top-full">
@@ -120,6 +119,9 @@ const App: React.FC<AppProps> = () => {
         )}
         </div>
       </div>
+      <div className="mt-4">Submission By: Parv Kulshreshtha</div>
+      <a href="https://drive.google.com/file/d/1utuXbmwitGYAeRIWKD8zWqXMlf_zmiW8/view?usp=sharing" className="text-blue-400">My Resume</a>
+      <a href="https://github.com/ParvKulshreshtha/zepto-assignment-chip-input" className="text-blue-400">Source Code</a>
     </div>
   );
 };
