@@ -120,8 +120,12 @@ const App: React.FC<AppProps> = () => {
         </div>
       </div>
       <div className="mt-4">Submission By: Parv Kulshreshtha</div>
-      <a href="https://drive.google.com/file/d/1utuXbmwitGYAeRIWKD8zWqXMlf_zmiW8/view?usp=sharing" className="text-blue-400">My Resume</a>
-      <a href="https://github.com/ParvKulshreshtha/zepto-assignment-chip-input" className="text-blue-400">Source Code</a>
+      <div>
+        <a href="https://drive.google.com/file/d/1utuXbmwitGYAeRIWKD8zWqXMlf_zmiW8/view?usp=sharing" className="text-blue-400">My Resume</a>
+      </div>
+      <div>
+        <a href="https://github.com/ParvKulshreshtha/zepto-assignment-chip-input" className="text-blue-400">Source Code</a>
+      </div>
     </div>
   );
 };
