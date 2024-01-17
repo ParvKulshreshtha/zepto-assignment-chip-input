@@ -83,7 +83,7 @@ const App: React.FC<AppProps> = () => {
           />
         ))}
 
-        <div className="">
+        <div className="flex-1">
           <input
             className="w-full h-full outline-none border-none"
             placeholder="Select Users..."
